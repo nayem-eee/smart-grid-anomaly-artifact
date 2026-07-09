@@ -27,7 +27,7 @@ Unlike conventional anomaly detection methods that primarily focus on identifyin
 ## Proposed Workflow
 
 *(Methodology Figure will be inserted here.)*
-
+![Workflow]([https://github.com/...](https://github.com/nayem-eee/smart-grid-anomaly-artifact/blob/d72d287f268c217f31b889364f4979a48ad93159/fig1_workflow.png)
 ---
 
 ## Experimental Results
