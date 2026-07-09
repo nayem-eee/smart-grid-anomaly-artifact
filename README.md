@@ -1,4 +1,4 @@
-# Smart Grid Cyber-Physical Anomaly Classification
+# Distinguishing Cyber-Induced Anomalies and Physical Disturbances in Smart Grids Using Interpretable Machine Learning
 
 ## Distinguishing Cyber-Induced Anomalies and Physical Disturbances in Smart Grids Using Interpretable Machine Learning
 
@@ -33,8 +33,6 @@ The overall workflow of the proposed explainable machine learning framework is i
 </p>
 
 **Figure 1.** Overall workflow of the proposed framework for distinguishing cyber-induced anomalies and physical grid disturbances.
-
-## Experimental Results
 
 ## Experimental Results
 
