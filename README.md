@@ -36,7 +36,20 @@ The overall workflow of the proposed explainable machine learning framework is i
 
 ## Experimental Results
 
-*(Representative performance table will be inserted here.)*
+## Experimental Results
+
+The proposed framework was evaluated using stratified 5-fold cross-validation. Random Forest achieved the best overall performance, followed closely by XGBoost and Decision Tree.
+
+| Model | Accuracy | Balanced Accuracy | Macro F1 |
+|:------|:--------:|:-----------------:|:--------:|
+| **Random Forest** | **0.9912 ± 0.0056** | **0.9828 ± 0.0120** | **0.9881 ± 0.0077** |
+| XGBoost | 0.9901 ± 0.0064 | 0.9823 ± 0.0123 | 0.9866 ± 0.0087 |
+| Decision Tree | 0.9868 ± 0.0056 | 0.9825 ± 0.0090 | 0.9825 ± 0.0074 |
+| KNN-5 | 0.9835 ± 0.0078 | 0.9643 ± 0.0168 | 0.9770 ± 0.0112 |
+| Logistic Regression | 0.9802 ± 0.0082 | 0.9571 ± 0.0178 | 0.9721 ± 0.0119 |
+| SVC-RBF | 0.9791 ± 0.0081 | 0.9548 ± 0.0175 | 0.9705 ± 0.0121 |
+
+**Table 1.** Stratified 5-fold cross-validation performance of the evaluated classifiers.
 
 ---
 
