@@ -55,9 +55,21 @@ The proposed framework was evaluated using stratified 5-fold cross-validation. R
 
 ## SHAP Explainability
 
-*(SHAP Beeswarm and/or Dependence Plot will be inserted here.)*
+To improve model transparency, SHAP (SHapley Additive exPlanations) was employed to interpret the prediction behavior of the best-performing Random Forest classifier. Class-specific SHAP analysis was conducted separately for the **Cyber** and **Grid Disturbance** classes to identify the operational measurements that most strongly influenced the classification decisions.
+
+### Cyber Class
+
+![SHAP Beeswarm - Cyber](shap_beeswarm_Cyber.png)
+
+**Figure 2.** SHAP beeswarm plot illustrating feature contributions for the **Cyber** class.
 
 ---
+
+### Grid Disturbance Class
+
+![SHAP Beeswarm - Grid Disturbance](shap_beeswarm_Grid_Disturbance.png)
+
+**Figure 3.** SHAP beeswarm plot illustrating feature contributions for the **Grid Disturbance** class.
 
 ## Code Availability
 
