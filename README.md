@@ -26,9 +26,13 @@ Unlike conventional anomaly detection methods that primarily focus on identifyin
 
 ## Proposed Workflow
 
-*(Methodology Figure will be inserted here.)*
-![Workflow]([https://github.com/...](https://github.com/nayem-eee/smart-grid-anomaly-artifact/blob/d72d287f268c217f31b889364f4979a48ad93159/fig1_workflow.png)
----
+The overall workflow of the proposed explainable machine learning framework is illustrated below.
+
+<p align="center">
+  <img src="fig1_workflow.png" alt="Proposed Workflow" width="850">
+</p>
+
+**Figure 1.** Overall workflow of the proposed framework for distinguishing cyber-induced anomalies and physical grid disturbances.
 
 ## Experimental Results
 
